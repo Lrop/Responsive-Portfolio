@@ -22,7 +22,7 @@ a {
     background:white ;
     color:white;
     font-size: 25px;
-    height: 70px;
+    height: 90px;
     
      
 }
@@ -76,7 +76,7 @@ label {
 
 .containerFooter {
     background-color: #4aaaa5;
-    height: 65px;
+    height: 40px;
     font-size: 15px;
     position: fixed;
     width: 100%;
@@ -144,11 +144,14 @@ h4 {
 
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
 
     .mainHeader{
         width: 100%;
         position: static;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0px;
 
     }
     .navigation{
@@ -167,7 +170,7 @@ h4 {
       width: 100%;
     }
   }
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
         
     .container {
       width: 100%;
@@ -182,7 +185,7 @@ h4 {
     
   }
   
-  @media (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     body {
         width: 100%;
     }
@@ -190,6 +193,7 @@ h4 {
         width: 100%;
         position: static;
         text-align: center;
+        height: 160px;
     }
     .container {
         min-width: 100%;
@@ -208,10 +212,13 @@ h4 {
         min-height: auto;
     }
    .projects {
-       float: none;
+       /* float: none; */
+       margin: 30px
    }
    .pp {
        float: none;
    }
   }
+  
+
   
